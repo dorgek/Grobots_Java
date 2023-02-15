@@ -8,7 +8,6 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 
-import Rendering.GBProjection;
 import sides.RobotType;
 import sides.Side;
 import support.FinePoint;

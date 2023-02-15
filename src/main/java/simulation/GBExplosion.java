@@ -9,7 +9,6 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
-import Rendering.GBProjection;
 import sides.Side;
 import sound.SoundManager;
 import support.FinePoint;

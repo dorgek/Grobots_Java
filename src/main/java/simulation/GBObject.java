@@ -12,7 +12,6 @@ import java.awt.RenderingHints;
 import java.awt.geom.Ellipse2D;
 import java.awt.image.BufferedImage;
 
-import Rendering.GBProjection;
 import sides.Side;
 //Maps FinePoints to screen locations
 import support.FinePoint;

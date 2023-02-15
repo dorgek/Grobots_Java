@@ -21,7 +21,6 @@ import sides.Side;
 import support.FinePoint;
 import support.GBColor;
 import support.GBMath;
-import Rendering.GBProjection;
 import brains.Brain;
 import brains.BrainStatus;
 

@@ -25,19 +25,9 @@ import java.util.List;
 
 import javax.swing.JPanel;
 
-import Rendering.GBProjection;
 import sides.RobotType;
 import sides.Side;
-import simulation.GBBlast;
-import simulation.GBExplosion;
-import simulation.GBForceField;
-import simulation.GBGame;
-import simulation.GBManna;
-import simulation.GBObject;
-import simulation.GBObjectClass;
-import simulation.GBObjectWorld;
-import simulation.GBRobot;
-import simulation.GBWorld;
+import simulation.*;
 import support.FinePoint;
 import support.GBColor;
 import support.GBMath;

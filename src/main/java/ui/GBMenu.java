@@ -70,6 +70,8 @@ enum MenuItems {
 			.getKeyStroke('3', InputEvent.CTRL_DOWN_MASK)),
 	fast("Fast (60fps)", KeyStroke
 			.getKeyStroke('6', InputEvent.CTRL_DOWN_MASK)),
+	VERY_FAST("Very Fast (300fps)", KeyStroke
+			.getKeyStroke('9', InputEvent.CTRL_DOWN_MASK)),
 	unlimited("Unlimited", KeyStroke
 			.getKeyStroke('U', InputEvent.CTRL_DOWN_MASK)),
 	newRound("New Round", KeyStroke
@@ -250,6 +252,7 @@ class GBMenu extends JMenuBar {
 		speedControls.add(menuButtons.get(MenuItems.slow));
 		speedControls.add(menuButtons.get(MenuItems.normal));
 		speedControls.add(menuButtons.get(MenuItems.fast));
+		speedControls.add(menuButtons.get(MenuItems.VERY_FAST));
 		speedControls.add(menuButtons.get(MenuItems.unlimited));
 		speedControls.setSelected(menuButtons.get(MenuItems.fast).getModel(),
 				true);
@@ -353,6 +356,8 @@ class GBMenu extends JMenuBar {
 				ret.add(MenuItems.normal.asJCheckBoxMenuItem()));
 		menuButtons.put(MenuItems.fast,
 				ret.add(MenuItems.fast.asJCheckBoxMenuItem()));
+		menuButtons.put(MenuItems.VERY_FAST,
+				ret.add(MenuItems.VERY_FAST.asJCheckBoxMenuItem()));
 		menuButtons.put(MenuItems.unlimited,
 				ret.add(MenuItems.unlimited.asJCheckBoxMenuItem()));
 		ret.addSeparator();
